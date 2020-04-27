@@ -50,9 +50,9 @@ module.exports = function(passport) {
 var TwitterStrategy = require('passport-twitter').Strategy;
 
 passport.use(new TwitterStrategy({
-        consumerKey: "wcXUEMZ0WAP7vLBQRZnO7mbeT",
-        consumerSecret: "38QzHsp98yYGWG6gsJLng2A9ioVgML3f2KhsYpuHqMtDLKOi1H",
-        callbackURL: "http://localhost:3000/user/home",
+        consumerKey: "XXXXXXXXXX",
+        consumerSecret: "XXXXXXXXX",
+        callbackURL: "http://localhost:5000/user/home",
         profileFields: ['emails', 'displayName']
     },
     function(token, tokenSecret, profile, done) {
@@ -66,9 +66,9 @@ passport.use(new TwitterStrategy({
 var FacebookStrategy = require('passport-facebook').Strategy;
 
 passport.use(new FacebookStrategy({
-        clientID: "1cf8a35b450ffef8ac69affda1b1dff1",
-        clientSecret: "a36482dacae53d86edaccbc929d63ca3",
-        callbackURL: "http://localhost:3000/user/home",
+        clientID: "XXXXXXXXXXXXXXXX",
+        clientSecret: "XXXXXXXXXXXXXXXXXXXXXXX",
+        callbackURL: "http://localhost:5000/user/home",
         profileFields: ['emails', 'displayName']
     },
     function(accessToken, refreshToken, profile, done) {
@@ -83,9 +83,9 @@ passport.use(new FacebookStrategy({
 var GoogleStrategy = require('passport-google-oauth').OAuthStrategy;
 
 passport.use(new GoogleStrategy({
-        consumerKey: "1021399281606-ag9fvm8drd6q9c2r4cr8v58vlbjbjiio.apps.googleusercontent.com",
-        consumerSecret: "9HGlztSGeQwZEfQPAU4UACLW",
-        callbackURL: "http://localhost:3000/user/home",
+        consumerKey: "XXXXXXXXXXXXXXXXXX",
+        consumerSecret: "XXXXXXXXXXXXXXXXXXXXX",
+        callbackURL: "http://localhost:5000/user/home",
         profileFields: ['emails', 'displayName']
     },
     function(token, tokenSecret, profile, done) {
