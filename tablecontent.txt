@@ -1,0 +1,21 @@
+{
+	"email" : "abc3@test.com",
+	"username" : "test3",
+	"password" : "byeeeee123hello",
+	"phone" : "1234577890"
+}
+
+
+{
+	"email" : "abc3@test.com",
+	"username" : "john",
+	"password" : "iknownothin",
+	"phone" : "1234558890"
+}
+
+{
+	"email" : "arya@facelessman.com",
+	"username" : "arya",
+	"password" : "valarmorghulis",
+	"phone" : "1234664490"
+}
